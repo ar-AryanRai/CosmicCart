@@ -1,0 +1,48 @@
+nav {
+  box-shadow: 0 0 20px rgb(44, 42, 42);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+nav {
+  height: 15%;
+}
+
+main {
+  height: 80%;
+}
+
+.contain {
+  height: 80%;
+  width: 85%;
+}
+
+.contain .image img {
+  box-shadow: 0 0 10px lightblue;
+  width: 350px;
+  height: 350px;
+}
+
+.buy-det {
+  width: 30%;
+}
+
+.circles {
+  width: 15%;
+  padding-top: 20px;
+}
+
+.circles .circ {
+  background-color: rgb(163, 165, 165);
+}
+
+nav .options .box {
+  cursor: pointer;
+}

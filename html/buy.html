@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/33ce17bf2c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../css/cart.css">
+  <link rel="stylesheet" href="../css/buy.css">
+</head>
+
+<body class="bg-gray-700 text-white">
+
+  <div
+    class="pop fixed top-10 left-[40%] right-[40%] flex items-center justify-center rounded-3xl hidden z-50 bg-blue-200 text-black font-bold h-[60px]">
+    <span>Item Removed Successfully</span>
+  </div>
+
+  <nav class="flex justify-between font-bold px-8 py-4">
+
+    <div class="logo border-2 p-[6px] underline self-center text-3xl">
+
+      <h1>LOGO</h1>
+
+    </div>
+
+    <div class="options flex justify-between underline text-sm w-[450px]">
+
+      <div class="box home border-2 h-auto px-3 self-center rounded-xl w-[100px] text-center">HOME</div>
+      <div class="box offers border-2 h-auto px-3 self-center rounded-xl w-[100px] text-center">OFFERS</div>
+      <div class="box buy-now self-center border-2 h-auto px-3 rounded-xl w-[100px] text-center">BUY NOW</div>
+      <div class="box about border-2 h-auto self-center px-3 rounded-xl w-[100px] text-center">ABOUT US</div>
+
+    </div>
+
+  </nav>
+
+  <main class="p-8 flex justify-between">
+    <div class="products-in-cart flex flex-col justify-start"></div>
+
+
+    <div class="oferr-bill">
+      <div class="offer w-[420px] mb-4 border-2 py-2">
+        <div class="value flex justify-evenly mb-2">
+          <label for="of">Coupon Code: </label>
+          <input id="of" class="in w-[280px] bg-blue-100 rounded-lg text-center text-black font-medium" type="text"
+            placeholder="Enter the Coupon Code">
+        </div>
+        <div class="valid flex justify-center">
+          <div class="apply bg-green-100 text-black font-medium text-center w-[100px] cursor-pointer rounded-lg ml-4">
+            APPLY</div>
+          <span class="isValid"></span>
+        </div>
+      </div>
+      <div class="bill w-[420px] h-[190px] border-2 p-2">
+        <div class="border-b-2 text-center">
+          <h1>Price Details </h1>
+        </div>
+        <div>
+          <div class="flex justify-between">
+            <span>Total</span>
+            <span class="tprice"></span>
+          </div>
+          <div class="flex justify-between">
+            <span>Discount on MRP</span>
+            <span class="dprice"></span>
+          </div>
+          <div class="flex justify-between">
+            <span>Discounted Price</span>
+            <span class="ddprice"></span>
+          </div>
+          <div class="flex justify-between">
+            <span>Coupon Discount</span>
+            <span class="cdprice"></span>
+          </div>
+          <div class="flex justify-between">
+            <span>Convenience Charge</span>
+            <span class="cprice"></span>
+          </div>
+
+          <div class="border-t-2 flex justify-between">
+            <span>Final Price: </span>
+            <span class="fprice"></span>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <script src="../js/nav.js"></script>
+  <script src="../js/coupons.js"></script>
+  <script src="../js/api.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+
+</html>

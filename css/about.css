@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+nav .options .box {
+  cursor: pointer;
+}
+
+nav {
+  box-shadow: 0 0 20px rgb(44, 42, 42);
+}
+
+nav {
+  height: 15%;
+}
+
+main {
+  height: 80%;
+} 
