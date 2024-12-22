@@ -1,0 +1,17 @@
+.bars,
+.close,
+.home1,
+.about1,
+.offers1,
+.cart1 {
+  cursor: pointer;
+}
+
+.dropside {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/b.jpg") no-repeat center center/cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: orange;
+  font-weight: 700;
+}

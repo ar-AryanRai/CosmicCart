@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Cart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./home.css">
+  <link rel="stylesheet" href="./nav.css">
+  <script src="https://kit.fontawesome.com/33ce17bf2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-cover text-white w-[100vw] h-[100vh] overflow-hidden">
+
+  <div
+    class="added fixed top-10 lg:left-[35%] lg:right-[35%] left-[25px] right-[25px] flex items-center justify-center rounded-3xl hidden z-50 bg-blue-200 text-black font-bold h-[60px]">
+    <p>Your Item is Successfully added to the cart</p>
+  </div>
+
+  <div
+    class="already-added fixed top-10 lg:left-[35%] lg:right-[35%] left-[25px] right-[25px] flex items-center justify-center rounded-3xl hidden z-50 bg-blue-200 text-black font-bold h-[60px]">
+    <p>Your Item is already added in the cart</p>
+  </div>
+
+  <nav class="flex items-center justify-between w-[100%] h-[12%]">
+    <div class="ml-4 company-logo w-[50%] lg:w-[16%] h-[90%] overflow-hidden">
+      <img class="logo w-[100%] h-[100%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+    </div>
+
+    <!-- remove the hidden class from below div -->
+    <div class="options hidden lg:block lg:flex lg:justify-evenly lg:w-[30%] lg:text-lg">
+      <div class="home">Home</div>
+      <div class="about">About Us</div>
+      <div class="offers">Offers</div>
+      <div class="cart px-2 rounded-sm">
+        <i class="fa-solid fa-cart-shopping mr-2" style="color: #ffffff;"></i> Cart
+      </div>
+    </div>
+
+    <div class="bars lg:hidden md:hidden mr-1">
+      <i class="fa-solid fa-bars text-2xl mx-4"></i>
+    </div>
+  </nav>
+
+  <div class="dropside hidden z-50 fixed top-[0px] right-0 w-[100%] h-[100%] lg:hidden md:hidden">
+    <div class="company-logo w-[100%] h-[12%] flex justify-between items-center">
+      <img class="logo ml-4 w-[50%] h-[90%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+      <i class="close fa-solid fa-circle-xmark text-3xl mx-4" style="color:#ffffff;"></i>
+    </div>
+
+    <div class="dropdown w-[100%] h-[40%] flex flex-col justify-evenly text-xl">
+      <div class="home1 h-[25%] flex justify-center items-center">Home</div>
+      <div class="about1 h-[25%] flex justify-center items-center">About Us</div>
+      <div class="offers1 h-[25%] flex justify-center items-center">Offers</div>
+      <div class="cart1 px-2 rounded-sm h-[25%] flex justify-center items-center">
+        <i class="fa-solid fa-cart-shopping mr-2"></i> Cart
+      </div>
+    </div>
+  </div>
+
+  <div class="info-container w-[100%] h-[34%] flex justify-center ">
+    <div class="info-move w-[80%] lg:w-[60%] h-[100%] flex justify-between lg:justify-evenly items-center">
+
+      <div class="left w-[15%] h-[16%] lg:w-[6%] lg:h-[21%] rounded-[50%] flex justify-center items-center">
+        <i class="fa-solid fa-arrow-left text-2xl"></i>
+      </div>
+
+      <div class="info w-[55%] lg:w-[30%] h-[80%] flex flex-col justify-evenly">
+        <div class="pname text-center">
+          <h2 class="name text-3xl font-medium"></h2>
+        </div>
+
+        <div class="pinfo text-center">
+          One of the most beautiful planet,<br>
+          making the universe precious
+        </div>
+
+        <div class="btns flex justify-between px-4">
+          <button class="add mr-2 border-2 px-4 py-2 rounded-sm">Add to Cart</button>
+          <button class="buy border-2 px-4 py-2 rounded-sm text-black bg-white">Buy Now</button>
+        </div>
+      </div>
+
+      <div class="right w-[15%] h-[16%] lg:w-[6%] lg:h-[21%] rounded-[50%] flex justify-center items-center">
+        <i class="fa-solid fa-arrow-right text-2xl"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="planets w-[100%] h-[54%]  flex px-4 lg:px-[0px] lg:justify-between absolute">
+    <div class="pleft h-[40%] relative hidden lg:block lg:top-[253px] left-2">
+      <!-- <img class="h-[100%]" src="./images/Planets/venus.png" alt="previous planet"> -->
+    </div>
+
+    <div class="pcenter relative h-[75%] top-[122px] lg:top-[0px] lg:h-[100%]">
+      <!-- <img class="h-[100%]" src="./images/Planets/earth.png" alt="current planet"> -->
+    </div>
+
+    <div class="pright h-[40%] relative hidden lg:block lg:top-[253px] right-2">
+      <!-- <img class="h-[100%]" src="./images/Planets/mars.png" alt="" class=""> -->
+    </div>
+  </div>
+
+  <script src="api.js"></script>
+  <script src="nav.js"></script>
+  <script src="index.js"></script>
+
+</body>
+
+</html>

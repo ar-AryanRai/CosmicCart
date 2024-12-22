@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About-Us</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./nav.css">
+  <script src="https://kit.fontawesome.com/33ce17bf2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-[url('./images/Backgrounds/bearth.jpg')] w-[100vw] h-[100vh] bg-cover text-white">
+
+  <nav class="flex items-center justify-between w-[100%] h-[12%]">
+    <div class="ml-4 company-logo w-[50%] lg:w-[16%] h-[90%] overflow-hidden">
+      <img class="logo w-[100%] h-[100%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+    </div>
+
+    <!-- remove the hidden class from below div -->
+    <div class="options hidden lg:block lg:flex lg:justify-evenly lg:w-[30%] lg:text-lg">
+      <div class="home">Home</div>
+      <div class="about">About Us</div>
+      <div class="offers">Offers</div>
+      <div class="cart px-2 rounded-sm">
+        <i class="fa-solid fa-cart-shopping mr-2" style="color: #ffffff;"></i> Cart
+      </div>
+    </div>
+
+    <div class="bars lg:hidden md:hidden mr-1">
+      <i class="fa-solid fa-bars text-2xl mx-4"></i>
+    </div>
+  </nav>
+
+  <div class="dropside hidden z-50 fixed top-[0px] right-0 w-[100%] h-[100%] lg:hidden md:hidden">
+    <div class="company-logo w-[100%] h-[12%] flex justify-between items-center">
+      <img class="logo ml-4 w-[50%] h-[90%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+      <i class="close fa-solid fa-circle-xmark text-3xl mx-4" style="color:#ffffff;"></i>
+    </div>
+
+    <div class="dropdown w-[100%] h-[40%] flex flex-col justify-evenly text-xl">
+      <div class="home1 h-[25%] flex justify-center items-center">Home</div>
+      <div class="about1 h-[25%] flex justify-center items-center">About Us</div>
+      <div class="offers1 h-[25%] flex justify-center items-center">Offers</div>
+      <div class="cart1 px-2 rounded-sm h-[25%] flex justify-center items-center">
+        <i class="fa-solid fa-cart-shopping mr-2"></i> Cart
+      </div>
+    </div>
+  </div>
+
+  <main class="py-2 w-[100%] h-[88%] lg:h-[75%] lg:flex lg:justify-center lg:items-center">
+    <div class="box w-[100%] lg:w-[50%] lg:py-4 lg:px-8">
+      <div class="w-[100%] ">
+        <h1 class="heading w-[100%] text-center text-4xl font-bold mb-6 text-green-200">About Us</h1>
+        <div class="text-lg text-justify text-white px-4">
+          Welcome to CosmicCart, where the wonders of our solar system come within reach! We are passionate
+          about bringing the beauty and uniqueness of the planets to life through an innovative and educational shopping
+          experience. Our mission is to connect space enthusiasts, educators, and curious minds with detailed models of
+          the celestial bodies that make up our solar system.
+          <br>
+          Each planet in our collection has been meticulously crafted with accurate details, offering a glimpse into the
+          vast expanse of space from the comfort of your home. Whether you're looking to decorate, inspire learning, or
+          simply indulge your love for astronomy, we have something for everyone.
+          <br>
+          At CosmicCart, we believe that exploring the cosmos is not just for astronauts—it's for dreamers and
+          thinkers like you. Join us on this cosmic journey, and discover the magic of the universe, one planet at a
+          time!
+        </div>
+      </div>
+      <div class="contact flex flex-col lg:flex-row justify-between my-8 px-4">
+        <div class="call bg-orange-400 text-black font-bold rounded-lg p-2 py-2 mb-2">
+          <i class="fa-solid fa-phone-volume fa-2xl"></i>
+          +91 1800180932
+        </div>
+        <div class="mail bg-orange-400 text-black font-bold rounded-lg p-2 py-2 mb-2">
+          <i class="fa-solid fa-envelope fa-2xl""></i>
+          planetseller758@gmail.com
+        </div>
+        <div class=" insta bg-orange-400 text-black font-bold rounded-lg p-2 py-2 mb-2">
+            <i class="fa-brands fa-square-instagram fa-2xl"></i>
+            @PlanetSeller
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./nav.js"></script>
+</body>
+
+</html>

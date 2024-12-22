@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OFFERS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/33ce17bf2c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./offers.css">
+  <link rel="stylesheet" href="./nav.css">
+</head>
+
+<body class="bg-[url('./images/Backgrounds/bearth.jpg')] bg-cover text-white">
+
+  <nav class="flex items-center justify-between w-[100%] h-[12%]">
+    <div class="ml-4 company-logo w-[50%] lg:w-[16%] h-[90%] overflow-hidden">
+      <img class="logo w-[100%] h-[100%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+    </div>
+
+    <!-- remove the hidden class from below div -->
+    <div class="options hidden lg:block lg:flex lg:justify-evenly lg:w-[30%] lg:text-lg">
+      <div class="home">Home</div>
+      <div class="about">About Us</div>
+      <div class="offers">Offers</div>
+      <div class="cart px-2 rounded-sm">
+        <i class="fa-solid fa-cart-shopping mr-2" style="color: #ffffff;"></i> Cart
+      </div>
+    </div>
+
+    <div class="bars lg:hidden md:hidden mr-1">
+      <i class="fa-solid fa-bars text-2xl mx-4"></i>
+    </div>
+  </nav>
+
+  <div class="dropside hidden z-50 fixed top-[0px] right-0 w-[100%] h-[100%] lg:hidden md:hidden">
+    <div class="company-logo w-[100%] h-[12%] flex justify-between items-center">
+      <img class="logo ml-4 w-[50%] h-[90%]" src="./images/logo.png" alt="Logo of our company space odyssey" />
+      <i class="close fa-solid fa-circle-xmark text-3xl mx-4" style="color:#ffffff;"></i>
+    </div>
+
+    <div class="dropdown w-[100%] h-[40%] flex flex-col justify-evenly text-xl">
+      <div class="home1 h-[25%] flex justify-center items-center">Home</div>
+      <div class="about1 h-[25%] flex justify-center items-center">About Us</div>
+      <div class="offers1 h-[25%] flex justify-center items-center">Offers</div>
+      <div class="cart1 px-2 rounded-sm h-[25%] flex justify-center items-center">
+        <i class="fa-solid fa-cart-shopping mr-2"></i> Cart
+      </div>
+    </div>
+  </div>
+
+  <main class="flex p-4 lg:justify-center lg:h-[80%] lg:items-center">
+    <div class="offer-box w-[500px]">
+      <ul class="leading-8 flex flex-col">
+        <span class="heading text-center header font-bold text-3xl text-green-200 ">Coupon Codes:</span>
+        <br>
+      </ul>
+    </div>
+  </main>
+
+  <script src="./coupons.js"></script>
+  <script src="./nav.js"></script>
+  <script src="./offers.js"></script>
+</body>
+
+</html>

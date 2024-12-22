@@ -1,0 +1,42 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.home,
+.about,
+.offers,
+.cart {
+  cursor: pointer;
+}
+
+.oops {
+  background-color: rgba(20, 20, 20, 0.307);
+}
+
+#of{
+  outline: 0;
+}
+
+.desc {
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  max-height: calc(1.5em * 3);
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.fprice,
+.flabel{
+  font-weight: bold;
+  color: #0e013b;
+}

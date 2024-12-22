@@ -1,0 +1,67 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url("../images/b.jpg"); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-blend-mode: color-burn; */
+}
+
+.home,
+.about,
+.offers,
+.cart {
+  cursor: pointer;
+}
+
+ul li {
+  background-color: rgba(20, 20, 20, 0.307);
+}
+
+.heading{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+main {
+  height: 88%;
+}
+
+ul .header {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.cop {
+  position: relative;
+}
+
+.cop.show-tooltip::before {
+  content: "Copied!";
+  position: absolute;
+  top: -45px;
+  right: 0px;
+  background: #5c81dc;
+  padding: 8px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+.cop.show-tooltip::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 25px;
+  width: 10px;
+  height: 10px;
+  background: #5c81dc;
+  transform: rotate(45deg);
+  display: block;
+}
+
+/* .cop::before,
+.cop::after {
+  display: none;
+} */

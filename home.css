@@ -1,0 +1,23 @@
+body {
+  transition-duration: 1s;
+}
+
+button,
+.left,
+.right,
+.home,
+.about,
+.offers,
+.cart{
+  cursor: pointer;
+}
+
+.left,
+.right,
+.cart {
+  background-color: rgba(223, 222, 222, 0.307);
+}
+
+.planets {
+  perspective: 1000px; /* Enables the 3D effect */
+}
