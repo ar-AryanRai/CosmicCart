@@ -2,7 +2,7 @@
 
 **Cosmic Cart** is a unique and interactive e-commerce website where users can "buy" different **planets** from the cosmos. Designed to mimic real-world shopping platforms, the website combines creativity with core frontend development practices using **HTML5**, **CSS3**, **Tailwind CSS**, and **JavaScript**.
 
-🌐 **Live Site**: [Click here to visit CosmicCart](https://ar-aryanrai.github.io/CosmicCart/)
+🌐 **Live Site**: [Click here to visit CosmicCart](cosmic-cart.netlify.app)
 
 ---
 
