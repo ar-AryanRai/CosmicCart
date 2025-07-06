@@ -34,7 +34,7 @@ const data = [
   {
     pname: "Jupiter",
     ppic: "./images/Planets/jupiter.png",
-    pbg: "./images/Backgrounds/bmars.jpg",
+    pbg: "./images/Backgrounds/bvenus.jpg",
     oprice: 119387,
     price: 109987,
     diff: 9400,
@@ -58,7 +58,7 @@ const data = [
   {
     pname: "Neptune",
     ppic: "./images/Planets/neptune.png",
-    pbg: "./images/Backgrounds/bvenus.jpg",
+    pbg: "./images/Backgrounds/bneptune.jpg",
     oprice: 113689,
     price: 111987,
     diff: 1702,
