@@ -34,7 +34,7 @@ const data = [
   {
     pname: "Jupiter",
     ppic: "./images/Planets/jupiter.png",
-    pbg: "./images/Backgrounds/bjupiter.jpg",
+    pbg: "./images/Backgrounds/bmars.jpg",
     oprice: 119387,
     price: 109987,
     diff: 9400,
@@ -42,7 +42,7 @@ const data = [
   {
     pname: "Saturn",
     ppic: "./images/Planets/saturn.png",
-    pbg: "./images/Backgrounds/bsaturn.jpg",
+    pbg: "./images/Backgrounds/bmars.jpg",
     oprice: 93687,
     price: 91987,
     diff: 1700,
@@ -58,7 +58,7 @@ const data = [
   {
     pname: "Neptune",
     ppic: "./images/Planets/neptune.png",
-    pbg: "./images/Backgrounds/bneptune.jpg",
+    pbg: "./images/Backgrounds/bvenus.jpg",
     oprice: 113689,
     price: 111987,
     diff: 1702,
